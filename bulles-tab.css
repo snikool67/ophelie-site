@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Bulles */
+
+.overlay{
+	color:#FFFFFF;
+	background-color:inherit;
+	}
+
+#testimonials blockquote{
+	display:block;
+	position:relative;
+	width:70%;
+	padding:20px;
+	z-index:1;
+	}
+	
+.one_third{
+	width:30%;
+	display:inline-block;
+	list-style:none;
+}
+
+#testimonials blockquote{
+	color:inherit;
+	background-color:rgba(0,0,0,.55);
+	border-radius:10px;
+	}
+	
+	
+	
+	/* TAB*/
+.selection {
+	background-color: #eeeeee;
+	height: 40%;
+}
+.content-tab{
+	position:absolute;
+}
+.content-tab-droit{
+	position:absolute;
+    left:25%;
+    padding: 1em;
+	max-width:35%;
+}
+.content-tab-image{
+	position:absolute;
+    left:65%;
+    padding: 1em;
+	max-width:30%;
+}
+.button4 {
+	width: 100px;
+	height: 60px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 100px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid orange;
+	background-color: #000000;
+	color: orange;
+	transition: all 0.3s linear;
+}
+.button4:hover {
+	background-color: orange;
+	border: 3px solid #000000;
+	color: #000000;
+	cursor: pointer;
+}
+
+
